@@ -1,0 +1,52 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+h2 {
+    color: black;
+}
+.column-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.box{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 2%;
+    margin: 0;
+}
+.column{
+    padding: 5px;
+    width: 250px;
+    min-height: 500px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.container-fluid {
+    padding: 2% 3%;
+}
+.task {
+    padding: 20px;
+    min-height: 50px;
+    margin: 0 0 5px 0;
+    border-radius: 10px;
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+    background-color: beige;
+}
